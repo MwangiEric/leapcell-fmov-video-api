@@ -1,0 +1,7 @@
+{
+  "runtime": "python",
+  "buildCommand": "sh prepare_fmov_env.sh",
+  "startCommand": "uvicorn main:app --port 8080",
+  "port": 8080,
+  "memory": "512mb"
+}
